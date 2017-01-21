@@ -1,0 +1,56 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("../img/bg.png") repeat;
+}
+
+/* Page de login */
+#login {
+    margin: 10% auto auto;
+    width: 367px;
+    font: small-caption;
+    font-size: 24px;
+}
+
+#login h1 {
+    cursor: default;
+}
+
+#form {
+    width: inherit;
+    text-align: center;
+}
+
+.ids {
+    width: 300px;
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.buttons {
+    width: 180px;
+    height: 25px;
+    font-size: 16px;
+}
+
+/* placeholders centrés */
+::-webkit-input-placeholder {
+    text-align: center;
+    font-size: 18px;
+}
+:-moz-placeholder { /* Firefox 18- */
+    text-align: center;
+    font-size: 18px;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;
+    font-size: 18px;
+}
+:-ms-input-placeholder {
+    text-align: center;
+    font-size: 18px;
+}

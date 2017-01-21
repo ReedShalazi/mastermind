@@ -1,0 +1,32 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Page de jeuFini */
+#jeuFini {
+    width: 80%;
+    margin: 0 auto auto;
+    text-align: center;
+    font:small-caption;
+    font-size:16px;
+}
+
+#jeu table {
+    margin: inherit;
+    border: 2px solid black;
+}
+
+#solution {
+    width: 60%;
+    border: 2px solid black;
+}
+
+#solution td {
+    width: 15%;
+    height: 30px;
+}
+
+.stats {
+    width: 50%;
+}
